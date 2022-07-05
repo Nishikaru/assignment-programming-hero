@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* classes------------------------ */
+.common-in-sec{
+    height: 100vh;
+}
+
+/* ids---------------------------- */
+#sec-1{
+    background: url(./img/donation9.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#sec-2{
+    background-color: aqua;
+}
