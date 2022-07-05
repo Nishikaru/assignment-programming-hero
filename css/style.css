@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* css for section 1-------------- */
 
 /* classes------------------------ */
 .common-in-sec{
@@ -12,11 +12,78 @@
 
 /* ids---------------------------- */
 #sec-1{
-    background: url(./img/donation9.jpg);
+    background-image: linear-gradient(90deg, rgba(80, 80, 80, 0.5) 0%, rgba(80, 80, 80, 0.5)0%), url(../img/donation9.jpg) ;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
+    text-align: center;
 }
+#sec-1 div{
+    padding-top: 30vh;
+}
+#sec-1 h1{
+    font-size: 60px;
+    color: #fff;
+
+    padding: 10px;
+}
+#sec-1 p{
+    font-size: 20px;
+    color: #fff;
+
+    padding: 10px;
+}
+
+#sec-1 button{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: #000 2px solid;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(201,5,5,0.7175245098039216) 0%, rgba(249,78,21,1) 62%);
+    color: #fff;
+}
+
+/* css for section 2------------------------- */
+
 #sec-2{
-    background-color: aqua;
+ 
+    
+
+}
+#sec-2 h1{
+    font-size: 60px;
+    color: #000;
+
+    padding: 10px;
+}
+#sec-1 p{
+    font-size: 20px;
+    color: #000;
+
+    padding: 10px;
+}
+
+#help-today{
+
+    padding: 30vh 0 10vh 0;
+    text-align: center;
+    margin: auto;
+
+}
+#sec-2-taka{
+
+    display: flex;
+    margin: 0 0;
+    text-align: center;
+
+}
+#sec-2-taka button{
+    /* padding: 20px; */
+    width: 150px;
+    height: 100px;
+    font-size: 25px;
+    border: #000 2px solid;
+    margin: 10px 50px;
 }
