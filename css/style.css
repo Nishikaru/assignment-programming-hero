@@ -180,3 +180,26 @@ padding: 10vh 25%;
 
     padding: 10px;
 }
+
+/* last-sec----------------------------------- */
+
+/* ids---------------------------------- */
+#last-sec{
+    height: 20vh;
+    background-color: #000;
+    /* color: #fff; */
+    text-align: center;
+}
+
+#last-sec h1{
+
+    padding: 30px 0 15px 0;
+    font-size: 35px;
+    color: crimson;
+}
+#last-sec p{
+    padding: 15px;
+    font-size: 20px;
+    color: rgb(190, 190, 190);
+}
+
