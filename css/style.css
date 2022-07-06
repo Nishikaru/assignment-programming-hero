@@ -114,3 +114,69 @@ padding: 10vh 25%;
     background: linear-gradient(90deg, rgba(201,5,5,0.7175245098039216) 0%, rgba(249,78,21,1) 62%);
     color: #fff;
 }
+
+/* sec-3----------------------------------------- */
+
+/* ids---------------------------------------- */
+
+#plan{
+    text-align: center;
+    padding-top: 15vh;
+}
+#plan h1{
+    font-size: 60px;
+    color: #000;
+
+    padding: 10px;
+}
+#plan p{
+    font-size: 20px;
+    color: #000;
+
+    padding: 10px;
+}
+
+#blue-card{
+    background-color: rgba(95, 158, 160, 0.3);
+}
+#red-card{
+    background-color: rgba(255, 0, 0, 0.3);
+}
+#yellow-card{
+    background-color: rgba(255, 255, 0, 0.3);
+}
+
+/* classes-------------------------------------------- */
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.card{
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    padding: 20px;
+    /* border: #000 2px solid; */
+    border-radius: 10px;
+}
+.card img{
+    width: 60px;
+    height: auto;
+    margin: 40px 0 20px 0;
+}
+.card h2{
+    font-size: 35px;
+    color: #000;
+
+    padding: 10px;
+}
+.card p{
+    font-size: 20px;
+    color: #000;
+
+    padding: 10px;
+}
