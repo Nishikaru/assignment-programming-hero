@@ -213,12 +213,18 @@ padding: 10vh 25%;
     color: #fff;
 }
 /* classes------------------------------------- */
+.about{
+    padding-left: 25%;
+    padding-right: 25%;
+}
 .about h1{
     
         font-size: 60px;
         color: #000;
     
         padding: 10px;
+
+        border-bottom: gray 10px dotted;
     
 }
 .about p{
@@ -245,6 +251,61 @@ padding: 10vh 25%;
     width: 500px;
     height: auto;
 }
+/* sub-sec---------------------------------- */
+
+/* ids------------------------------------------ */
+#sub-sec{
+    text-align: center;
+    padding-top: 20vh;
+}
+#sub-sec h1{
+    
+    font-size: 60px;
+    color: #000;
+
+    padding: 10px;
+
+}
+#sub-sec p{
+font-size: 20px;
+color: #000;
+
+padding: 10px;
+}
+#sub-btn{
+    margin: 0;
+    
+    
+    border-radius: 0 10px 10px 0;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(201,5,5,0.7175245098039216) 0%, rgba(249,78,21,1) 62%);
+    color: #fff;
+}
+/* classes--------------------------------------- */
+.sub-here{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 500px; */
+    /* height: 300px; */
+}
+.sub-form{
+    background-color: rgba(255, 214, 80, 0.5);
+    padding: 100px 200px;
+    margin-top: 50px ;
+}
+.sub-form input{
+/* width: 300px;
+height: 50px; */
+margin: 0;
+border: none;
+background-color: darkgray;
+padding: 10px;
+font-size: 20px;
+border-radius: 10px 0 0 10px;
+}
+
 
 /* last-sec----------------------------------- */
 
